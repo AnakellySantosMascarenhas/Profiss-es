@@ -1,0 +1,868 @@
+body{
+    margin: 0;
+}
+
+.wrapper{
+    width: 100;
+    height: 100%;
+    }
+    
+#topo{
+    background-color: #072937;
+    position: relative;
+    width: 100vw;
+    height: 480px;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    color: #ffffff;
+    left: 0px;
+    
+}
+
+#cienciassaude{
+    position: absolute;
+    background-color:#002E58;
+    width:1000px;
+    height: 500px;
+    border-radius: 20px;
+    left: 20px;
+    top: 680px;
+    }
+
+    #basetexto{
+    position: absolute;
+    width: 619px;
+    height: 442px;
+    left: 32px;
+    top: 710px;
+
+    background: #023E8A;
+    border-radius: 40px;
+
+    }
+
+    #titulo1{
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        position: absolute;
+        top: 100px;
+        font-size: 50px;
+        left: 65px;
+    }
+
+    #titulo2{
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        position: absolute;
+        top: 160px;
+        font-size: 50px;
+        left: 115px;
+    }
+
+    #titulo3{
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        position: absolute;
+        top: 215px;
+        font-size: 50px;
+        left: 85px;
+    }
+
+    #cursos{
+        color: #D30511;
+        position: absolute;
+        top: 1300px;
+        left: 450px;
+        font-family: 'Fredoka', sans-serif;
+        font-size: 90px;
+
+    }
+
+    .linha1{
+    position: absolute;
+    width: 135px;
+    height: 20px;
+    left: 50px;
+    top: 1514px;
+    background: #D30511;
+    border-radius: 8px;
+    }
+
+    #medicina{
+    position: absolute;
+    width: 15px;
+    height: 32px;
+    left: 200px;
+    top: 1440px;
+    font-family: 'Hermeneus One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 145px;
+    color: #000000;
+
+    }
+
+    .linha2{
+    position: absolute;
+    width: 435px;
+    height: 20px;
+    left: 500px;
+    top: 1514px;
+    background: #D30511;
+    border-radius: 8px;
+    }
+
+    #medicina2{
+    position: absolute;
+    width: 563px;
+    height: 339px;
+    left: 40px;
+    top: 1605px;
+    background: #00243E;
+    border-radius: 60px;
+    
+    
+    }
+
+    .oque1{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 97px;
+    left: 35px ;
+    color: #FFFFFF;
+
+    }
+
+    .textomedicina1{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 51px;
+    color: #ffffff;
+    left: 35px;
+    top: 85px;
+    }
+    
+    #medicina3{
+    position: absolute;
+    width: 528px;
+    height: 489px;
+    left: 708px;
+    top: 1570px;
+    background: #A43A40;
+    border-radius: 60px;
+    }
+
+    .perfil1{
+    position: absolute;
+    width: 765px;
+    height: 146px;
+    left: 150px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 97px;
+    color: #FFFFFF;
+    }
+
+    .textomedicina2{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #ffffff;
+    left: 35px;
+    top: 85px;
+    }
+
+    .imgmedicina1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    left: 40px;
+    top: 2026px;
+
+    background: url(image.png);
+    border: 1px solid #000000;
+    border-radius: 60px;
+    }
+
+    #medicina4{
+    top: 2096px;
+    position: absolute;
+    left:620px;
+    background: #032233;
+    border-radius: 60px;
+    height: 303px;
+    width: 636px;
+
+    }
+
+    .gradecurricular1{
+        position: absolute;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 97px;
+        left: 35px ;
+        color: #FFFFFF; 
+    }
+
+    .textomedicina3{
+        position: absolute;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 31px;
+        color: #ffffff;
+        left: 35px;
+        top: 85px; 
+    }
+
+
+    .linha3{
+        position: absolute;
+        width: 135px;
+        height: 20px;
+        left: 30px;
+        top: 2690px;
+        background: #000000;
+        border-radius: 8px;
+        }
+    
+        #faculmedicina1{
+        position: absolute;
+        width: 15px;
+        height: 32px;
+        left: 170px;
+        top: 2660px;
+        font-family: 'Hermeneus One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 55px;
+        color: #D30511;
+    
+        }
+
+        #faculmedicina2{
+            position: absolute;
+            width: 15px;
+            height: 32px;
+            left: 405px;
+            top: 2660px;
+            font-family: 'Hermeneus One';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 55px;
+            color: #D30511;
+        
+            }
+
+        #faculmedicina3{
+            position: absolute;
+            width: 15px;
+            height: 32px;
+            left: 465px;
+            top: 2660px;
+            font-family: 'Hermeneus One';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 55px;
+            color: #D30511;
+            
+            }
+    
+        .linha4{
+        position: absolute;
+        width: 295px;
+        height: 20px;
+        left: 675px;
+        top: 2695px;
+        background: #000000;
+        border-radius: 8px;
+        }
+
+        #medicina5{
+        position: absolute;
+        width: 663px;
+        height: 489px;
+        left: 20px;
+        top: 2805px;
+        background: #00243E;
+        border-radius: 60px;
+            
+            
+            }
+
+        .textomedicina4{
+        position: absolute;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 41px;
+        color: #FFFFFF;
+        top: 30px;
+        }
+
+        .saibamais1{
+        border-radius: 60px;
+        background-color: #FFFFFF;
+        width: 110px;
+        height: 35px;
+        position: absolute;
+        font-family: 'Inter';
+        font-style: normal;
+        font-size: 20px;
+        top: 400px;
+        left: 25vw;
+        color: #000000;
+        cursor: pointer;
+
+        }
+
+        .borda{
+        background: #FFFFFF;
+        border: 3px solid #000000;
+        border-radius: 60px;
+        position: absolute;
+        top:2845px;
+        height: 388px;
+        width: 328px;
+        left: 708px;
+
+        }
+        
+        #medicina6{
+        position: absolute;
+        background: #082337;
+        border-radius: 60px;
+        height: 350px;
+        width: 300px ;
+        left: 8px;
+        top: 15px;
+        }
+
+        .mediasalarial1{
+        position: absolute;
+        width: 765px;
+        height: 146px;
+        left: 60px; 
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        color: #FFFFFF;
+        }
+
+        .textomedicina5{
+        position: absolute;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 31px;
+        top: 45px ;
+        color: #FFFFFF; 
+
+        }
+
+
+        #faculdades1{
+            position: absolute;
+            width: 2863px;
+            height: 339px;
+            left: 20px;
+            top: 3405px;
+            background: #00243E;
+            border-radius: 60px;
+        }
+
+        .textofaculdades1{
+            position: absolute;
+            font-size: 25px;
+            color: #D30511;
+            font-family: 'Inter';
+            font-style: normal;
+            left: 350px;
+
+        }
+
+        #preto{
+            background-color: #000000;
+            position: absolute;
+            width: 150vw;
+            height: 480px;
+            color: #ffffff;
+            left: 0px;
+            top: 3980px;
+        }
+        
+
+
+        #medicina7{
+        box-sizing: border-box;
+        border: 5px solid #FFFFFF;
+        border-radius: 60px;
+        height: 380px;
+        width: 850px;
+        left: 0px;
+        top: 60px;
+        position: absolute;
+
+        }
+
+
+        .mercadodetrabalho1{
+            position: absolute;
+            font-size: 45px;
+            color: #D30511;
+            font-family: 'Inter';
+            font-style: normal;
+            left: 150px;
+        }
+
+        .textomedicina6{
+            position: absolute;
+            font-size: 20px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            line-height: 61px;
+            top:  45px ;
+            left: 5px;
+
+
+        }
+
+
+        .linha5{
+            position: absolute;
+            width: 135px;
+            height: 20px;
+            left: 50px;
+            top: 4600px;
+            background: #D30511;
+            border-radius: 8px;
+            }
+        
+            #psicologia{
+            position: absolute;
+            width: 15px;
+            height: 32px;
+            left: 200px;
+            top: 4530px;
+            font-family: 'Hermeneus One';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 75px;
+            line-height: 145px;
+            color: #000000;
+        
+            }
+        
+            .linha6{
+            position: absolute;
+            width: 435px;
+            height: 20px;
+            left: 520px;
+            top: 4600px;
+            background: #D30511;
+            border-radius: 8px;
+            }
+
+
+            #preto2{
+                background-color: #000000;
+                position: absolute;
+                width: 150vw;
+                height: 3080px;
+                color: #ffffff;
+                left: 0px;
+                top: 4700px;
+            }
+
+            #psicologia2{
+                position: absolute;
+                width: 2265px;
+                height: 338px;
+                left: 36px;
+                top: 35px;
+
+                background: #FFFFFF;
+                border-radius: 60px;
+            }
+            
+            .oque2{
+                position: absolute;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 97px;
+                left: 35px ;
+                color: #000000;
+            }
+
+            .textopsicologia1{
+                position: absolute;
+                width: 550px;
+                height: 12px;
+                left: 5px;
+                top: 65px;
+
+                font-family: 'Hermeneus One';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                color: #000000;
+            }
+
+            .linha7{
+                position: absolute;
+                width: 286px;
+                height:0px;
+                left: 415px;
+                top: 170px;
+
+            border: 1px solid #C0C0C0	;
+            transform: rotate(90deg);
+            }
+
+            #psicologia3{
+                position: absolute;
+                width: 583px;
+                height: 301px;
+                left: 13px;
+                top: 570px;
+
+                background: #FFFFFF;
+                border-radius: 60px;
+            }
+
+            .perfil2{
+                position: absolute;
+                width: 657px;
+                height: 119px;
+                left: 34px;
+                top: 10px;
+
+                font-family: 'Hermeneus One';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 30px;
+
+
+                color: #000000;
+
+            }
+
+            .textopsicologia2{
+                position: absolute;
+width: 275px;
+height: 150px;
+left: 34px;
+top: 50px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+
+color: #000000;
+            }
+
+
+                #psicologia4{
+                    left: 615px;
+                    background: #FFFFFF;
+                    height: 438px;
+                    width: 450px;
+                    top: 540px;
+                    position: absolute;
+                    border-radius: 60px;
+                }
+
+                .gradecurricular2{
+                    font-family: 'Hermeneus One';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 30px;
+                position: absolute;
+                width: 657px;
+                height: 119px;
+                left: 94px;
+                top: 10px;
+
+                color: #000000;   
+                }
+
+
+            .textopsicologia3{
+                position: absolute;
+width: 275px;
+height: 150px;
+left: 34px;
+top: 50px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+
+color: #000000;
+            }
+
+
+            .saibamais2{
+                
+                    border-radius: 60px;
+                    background-color: #00243E;
+                    width: 110px;
+                    height: 45px;
+                    position: absolute;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-size: 20px;
+                    top: 350px;
+                    left: 20vw;
+                    color: #ffffff;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+            
+            }
+
+            .linha8{
+                position: absolute;
+                width: 135px;
+                height: 20px;
+                left: 20px;
+                top: 1090px;
+                background: #FFFFFF;
+                border-radius: 8px;
+                }
+            
+                #faculdadepsicologia1{
+                position: absolute;
+                width: 15px;
+                height: 32px;
+                left: 165px;
+                top: 1050px;
+                font-family: 'Hermeneus One';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 55px;
+                color: #D30511;
+            
+                }
+        
+                #faculdadepsicologia2{
+                    position: absolute;
+                    width: 15px;
+                    height: 32px;
+                    left: 405px;
+                    top: 1050px;
+                    font-family: 'Hermeneus One';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 55px;
+                    color: #D30511;
+                
+                    }
+        
+                #faculdadepsicologia3{
+                    position: absolute;
+                    width: 15px;
+                    height: 32px;
+                    left: 465px;
+                    top: 1050px;
+                    font-family: 'Hermeneus One';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 55px;
+                    color: #D30511;
+                    
+                    }
+            
+                .linha9{
+                position: absolute;
+                width: 295px;
+                height: 20px;
+                left: 695px;
+                top: 1090px;
+                background: #FFFFFF;
+                border-radius: 8px;
+                }
+
+                #psicologia5{
+                position: absolute;
+                width: 2265px;
+                height: 338px;
+                left: 36px;
+                top: 1190px;
+
+                background: #FFFFFF;
+                border-radius: 60px;
+                }
+
+                .textopsicologia4{
+                    position: absolute;
+width: 677px;
+height: 810px;
+left: 25px;
+top: 36px;
+
+font-family: 'Hermeneus One';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+
+
+color: #000000;
+                }
+
+                .saibamais3{
+                
+                    border-radius: 60px;
+                    background-color: #00243E;
+                    width: 110px;
+                    height: 75px;
+                    position: absolute;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-size: 20px;
+                    top: 150px;
+                    left: 75vw;
+                    color: #ffffff;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+            
+            }
+
+            #faculdades2{
+                position: absolute;
+            width: 2863px;
+            height: 639px;
+            left: 20px;
+            top: 1605px;
+            background: #ffffff;
+            border-radius: 60px;
+            }
+
+            .textofaculdades2{
+                position: absolute;
+                font-size: 25px;
+                color: #D30511;
+                font-family: 'Inter';
+                font-style: normal;
+                left: 350px;
+    
+            }
+
+            #psicologia6{
+            position: absolute;
+            width: 2993px;
+            height: 639px;
+            left: 20px;
+            top: 2305px;
+            background: #041928;
+            border: 6px solid #FFFFFF;
+            border-radius: 60px;
+            }
+
+            .mercadodetrabalho2{
+                position: absolute;
+                width: 1016px;
+                height: 104px;
+                left: 66px;
+                top: 10px;                
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 50px;
+                line-height: 97px;
+
+                color: #FFFFFF;
+            }
+
+            .textopsicologia5{
+                position: absolute;
+                width: 615px;
+                height: 588px;
+                left: 15px;
+                top: 129px;
+                
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 30px;
+                
+                
+                color: #FFFFFF
+            }
+
+
+            #rosa{
+            
+            background-color: #A42930;
+            position: absolute;
+            width: 150vw;
+            height: 380px;
+            color: #ffffff;
+            left: 0px;
+            top: 7780px;
+                
+                
+            }
+
+            .mediasalarial2{
+                position: absolute;
+                width: 807px;
+                height: 176px;
+                left: 589px;
+                top: 20px;
+                
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 50px;
+                line-height: 97px;
+                
+                color: #FFFFFF;
+                
+            }
+
+            .textopsicologia6{
+                position: absolute;
+                width: 407px;
+                height: 176px;
+                left: 589px;
+                top: 100px;
+                
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 30px;
+
+                
+                color: #FFFFFF;
+            }
+
+            
