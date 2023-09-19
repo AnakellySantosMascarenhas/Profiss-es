@@ -1,868 +1,1057 @@
 body{
     margin: 0;
+    
 }
 
 .wrapper{
     width: 100;
     height: 100%;
+    
     }
+
+#comeco{
+    position: absolute;
+    width: 100vw;
+    height: 480px;
+    left: 0;
+    top: 0px;
+    background-color: rgba(240,255,0, 0.5);
+}
+
+#ciencias{
+    color: #1D5865;
+    top: 580px;
+    position: absolute;
+    width: 100vw;
+    height: 480px;
+    font-family: 'Fredoka', sans-serif;
+    left: 31px;
+    font-size: 70px;
+}
     
 #topo{
-    background-color: #072937;
     position: relative;
     width: 100vw;
     height: 480px;
     font-family: 'Fredoka', sans-serif;
     font-family: 'PT Sans', sans-serif;
     color: #ffffff;
-    left: 0px;
+    left: -11px;
+    top: 60px;
     
 }
 
 #cienciassaude{
     position: absolute;
-    background-color:#002E58;
-    width:1000px;
-    height: 500px;
+    background-color:#063D49;
+    width:700px;
+    height: 350px;
     border-radius: 20px;
-    left: 20px;
-    top: 680px;
+    left: 200px;
+    top: 750px;
     }
 
     #basetexto{
     position: absolute;
-    width: 619px;
-    height: 442px;
-    left: 32px;
+    width: 719px;
+    height: 340px;
+    left: 102px;
     top: 710px;
-
-    background: #023E8A;
+    color: #ffffff;
+    background: #135F6F;
     border-radius: 40px;
-
-    }
-
-    #titulo1{
-        font-family: 'Open Sans', sans-serif;
-        color: #fff;
-        position: absolute;
-        top: 100px;
-        font-size: 50px;
-        left: 65px;
-    }
-
-    #titulo2{
-        font-family: 'Open Sans', sans-serif;
-        color: #fff;
-        position: absolute;
-        top: 160px;
-        font-size: 50px;
-        left: 115px;
-    }
-
-    #titulo3{
-        font-family: 'Open Sans', sans-serif;
-        color: #fff;
-        position: absolute;
-        top: 215px;
-        font-size: 50px;
-        left: 85px;
-    }
-
-    #cursos{
-        color: #D30511;
-        position: absolute;
-        top: 1300px;
-        left: 450px;
-        font-family: 'Fredoka', sans-serif;
-        font-size: 90px;
-
-    }
-
-    .linha1{
-    position: absolute;
-    width: 135px;
-    height: 20px;
-    left: 50px;
-    top: 1514px;
-    background: #D30511;
-    border-radius: 8px;
-    }
-
-    #medicina{
-    position: absolute;
-    width: 15px;
-    height: 32px;
-    left: 200px;
-    top: 1440px;
-    font-family: 'Hermeneus One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 75px;
-    line-height: 145px;
-    color: #000000;
-
-    }
-
-    .linha2{
-    position: absolute;
-    width: 435px;
-    height: 20px;
-    left: 500px;
-    top: 1514px;
-    background: #D30511;
-    border-radius: 8px;
-    }
-
-    #medicina2{
-    position: absolute;
-    width: 563px;
-    height: 339px;
-    left: 40px;
-    top: 1605px;
-    background: #00243E;
-    border-radius: 60px;
-    
-    
-    }
-
-    .oque1{
-    position: absolute;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 97px;
-    left: 35px ;
-    color: #FFFFFF;
-
-    }
-
-    .textomedicina1{
-    position: absolute;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 25px;
-    line-height: 51px;
-    color: #ffffff;
-    left: 35px;
-    top: 85px;
-    }
-    
-    #medicina3{
-    position: absolute;
-    width: 528px;
-    height: 489px;
-    left: 708px;
-    top: 1570px;
-    background: #A43A40;
-    border-radius: 60px;
-    }
-
-    .perfil1{
-    position: absolute;
-    width: 765px;
-    height: 146px;
-    left: 150px; 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 97px;
-    color: #FFFFFF;
-    }
-
-    .textomedicina2{
-    position: absolute;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 35px;
-    color: #ffffff;
-    left: 35px;
-    top: 85px;
-    }
-
-    .imgmedicina1{
-    box-sizing: border-box;
-    position: absolute;
-    width: 400px;
-    height: 350px;
-    left: 40px;
-    top: 2026px;
-
-    background: url(image.png);
-    border: 1px solid #000000;
-    border-radius: 60px;
-    }
-
-    #medicina4{
-    top: 2096px;
-    position: absolute;
-    left:620px;
-    background: #032233;
-    border-radius: 60px;
-    height: 303px;
-    width: 636px;
+    font-family: 'Oswald', sans-serif;
 
     }
 
-    .gradecurricular1{
-        position: absolute;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 40px;
-        line-height: 97px;
-        left: 35px ;
-        color: #FFFFFF; 
-    }
+    .o-que-e{position: absolute; background:#135F6F; width: 100%; padding: 100px 0px; top:1250px ; } 
 
-    .textomedicina3{
-        position: absolute;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 31px;
-        color: #ffffff;
-        left: 35px;
-        top: 85px; 
-    }
+.container{ position:relative; width: 1200px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; padding: 30px; } 
 
+.container .card-5{ position: relative; max-width: 300px; height: 250px; background: #101010; margin:30px 10px; padding: 20px 15px; display: flex; flex-direction: column; box-shadow: 0 5px 202px rgba(0,0,0,0.5); transition: 0.3s ease-in-out; } 
 
-    .linha3{
-        position: absolute;
-        width: 135px;
-        height: 20px;
-        left: 30px;
-        top: 2690px;
-        background: #000000;
-        border-radius: 8px;
-        }
-    
-        #faculmedicina1{
-        position: absolute;
-        width: 15px;
-        height: 32px;
-        left: 170px;
-        top: 2660px;
-        font-family: 'Hermeneus One';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 55px;
-        color: #D30511;
-    
-        }
+.container .card-5:hover{ height: 450px; } 
 
-        #faculmedicina2{
-            position: absolute;
-            width: 15px;
-            height: 32px;
-            left: 405px;
-            top: 2660px;
-            font-family: 'Hermeneus One';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 55px;
-            color: #D30511;
-        
-            }
+.container .card-5 .img7{ position: relative; width: 260px; height: 260px; top: -60px; left: 5px; z-index: 1; box-shadow: 0 5px 20px rgba(0,0,0,0.2); }
 
-        #faculmedicina3{
-            position: absolute;
-            width: 15px;
-            height: 32px;
-            left: 465px;
-            top: 2660px;
-            font-family: 'Hermeneus One';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 55px;
-            color: #D30511;
-            
-            }
-    
-        .linha4{
-        position: absolute;
-        width: 295px;
-        height: 20px;
-        left: 675px;
-        top: 2695px;
-        background: #000000;
-        border-radius: 8px;
-        }
+.container .card-5 .img7 img{ max-width: 100%; border-radius: 4px; } 
 
-        #medicina5{
-        position: absolute;
-        width: 663px;
-        height: 489px;
-        left: 20px;
-        top: 2805px;
-        background: #00243E;
-        border-radius: 60px;
-            
-            
-            }
+.container .card-5 .texto-cursos{ position: relative; margin-top:-140px; padding: 10px 15px; text-align: center; color: #111; visibility: hidden; opacity: 0; transition: 0.3s ease-in-out; } 
 
-        .textomedicina4{
-        position: absolute;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 41px;
-        color: #FFFFFF;
-        top: 30px;
-        }
+.container .card-5:hover .texto-cursos{ visibility: visible; opacity: 1; margin-top: -40px; transition-delay: 0.1s; } 
 
-        .saibamais1{
-        border-radius: 60px;
-        background-color: #FFFFFF;
-        width: 110px;
-        height: 35px;
-        position: absolute;
-        font-family: 'Inter';
-        font-style: normal;
-        font-size: 20px;
-        top: 400px;
-        left: 25vw;
-        color: #000000;
-        cursor: pointer;
+.o-que-e h2{ color:#fff; font-size:65px; width:1130px; margin: 30px auto; text-align: center; } 
 
-        }
+.titulo6 h2{ color:#fff; font-size:65px; width:1130px; margin: 30px auto; text-align: center; } 
 
-        .borda{
-        background: #FFFFFF;
-        border: 3px solid #000000;
-        border-radius: 60px;
-        position: absolute;
-        top:2845px;
-        height: 388px;
-        width: 328px;
-        left: 708px;
+.texto-cursos p{ color:#fff; font-size: 10px; } 
 
-        }
-        
-        #medicina6{
-        position: absolute;
-        background: #082337;
-        border-radius: 60px;
-        height: 350px;
-        width: 300px ;
-        left: 8px;
-        top: 15px;
-        }
+.texto-cursos h3{ color:#fff; font-size: 19px; } 
 
-        .mediasalarial1{
-        position: absolute;
-        width: 765px;
-        height: 146px;
-        left: 60px; 
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        color: #FFFFFF;
-        }
+.box1{ display: flex; justify-content: center; align-items: center; min-height: 400px; } 
 
-        .textomedicina5{
-        position: absolute;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 31px;
-        top: 45px ;
-        color: #FFFFFF; 
+.card-7{ height: 380px; width: 335px; padding:20px 35px; background:#000; border-radius:20px; margin: 15px; position:relative; overflow: hidden; text-align: center; } 
 
-        }
+.Cursos{ background:#063D49; width: 100%; padding: 100px 0px; } 
 
+.container{ position:relative; width: 1100px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; padding: 30px; } 
 
-        #faculdades1{
-            position: absolute;
-            width: 2863px;
-            height: 339px;
-            left: 20px;
-            top: 3405px;
-            background: #00243E;
-            border-radius: 60px;
-        }
+.container .card-5{ position: relative; max-width: 300px; height: 210px; background: #063D49; margin:30px 10px; padding: 20px 15px; display: flex; flex-direction: column; box-shadow: 0 5px 202px #135F6F; transition: 0.3s ease-in-out; } 
 
-        .textofaculdades1{
-            position: absolute;
-            font-size: 25px;
-            color: #D30511;
-            font-family: 'Inter';
-            font-style: normal;
-            left: 350px;
+.container .card-5:hover{ height: 450px; } 
 
-        }
+.container .card-5 .imagem-cursos{ position: relative; width: 260px; height: 260px; top: -60px; left: 5px; z-index: 1; box-shadow: 0 5px 20px rgba(0,0,0,0.2); } 
 
-        #preto{
-            background-color: #000000;
-            position: absolute;
-            width: 150vw;
-            height: 480px;
-            color: #ffffff;
-            left: 0px;
-            top: 3980px;
-        }
-        
+.container .card-5 .imagem-cursos img{ max-width: 100%; border-radius: 4px; } 
 
+.container .card-5 .texto-cursos{ position: relative; margin-top:-140px; padding: 10px 15px; text-align: center; color: #063D49; visibility: hidden; opacity: 0; transition: 0.3s ease-in-out; } 
 
-        #medicina7{
-        box-sizing: border-box;
-        border: 5px solid #FFFFFF;
-        border-radius: 60px;
-        height: 380px;
-        width: 850px;
-        left: 0px;
-        top: 60px;
-        position: absolute;
+.container .card-5:hover .texto-cursos{ visibility: visible; opacity: 1; margin-top: -40px; transition-delay: 0.1s; } 
 
-        }
+.o-que-e h2{ color:#fff; font-size:65px; width:1130px; margin: 30px auto; text-align: center; } 
 
+.titulo6 h2{ color:#fff; font-size:65px; width:1130px; margin: 30px auto; text-align: center; }
 
-        .mercadodetrabalho1{
-            position: absolute;
-            font-size: 45px;
-            color: #D30511;
-            font-family: 'Inter';
-            font-style: normal;
-            left: 150px;
-        }
+.texto-cursos p{ color:#fff; font-size:16px; }
 
-        .textomedicina6{
-            position: absolute;
-            font-size: 20px;
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 400;
-            line-height: 61px;
-            top:  45px ;
+.texto-cursos h3{ color:#fff; font-size: 25px; }
+
+.box1{ display: flex; justify-content: center; align-items: center; width: auto; height:auto; }
+
+.card-7{ height: 380px; width: 335px; padding:20px 35px; background:#063D49; border-radius:20px; margin: 15px; position:relative; overflow: hidden; text-align: center; }
+
+.graduação1{ background:#063D49; width: 100%; padding: 100px 0px; }
+
+.sobre-faculdades
+    { background:#153E47;
+         width: 100%;
+          padding: 100px 0px;
+        top: 7836px; 
+    position: relative;} 
+    .container
+    { position:relative;
+         width: 1200px; 
+         display: flex; 
+         justify-content: center;
+          align-items: center; 
+          flex-wrap: wrap;
+           padding: 30px; }
+     .container .card-5
+     { position: relative;
+         max-width: 300px;
+          height: 250px;
+           background: #101010;
+            margin:30px 10px;
+             padding: 20px 15px; 
+             display: flex; 
+             flex-direction: column;
+              box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+               transition: 0.3s ease-in-out; } 
+    .container .card-5:hover
+    { height: 450px; } 
+    .container .card-5 .img7
+    { position: relative;
+         width: 260px;
+          height: 260px;
+           top: -60px;
             left: 5px;
+             z-index: 1;
+              box-shadow: 0 5px 20px #153E47; } 
+              .container .card-5 .img7 img
+              { max-width: 100%;
+                 border-radius: 4px; } 
+              .container .card-5 .texto-sobre-faculdades{ position: relative; margin-top:-140px; padding: 10px 15px; text-align: center; color: #153E47; visibility: hidden; opacity: 0; transition: 0.3s ease-in-out; } 
+              .container .card-5:hover .texto-sobre-faculdades{ visibility: visible; opacity: 1; margin-top: -40px; transition-delay: 0.1s; }
+               .sobre-faculdades h2{ color:#fff; font-size:65px; width:1130px; margin: 30px auto; text-align: center; } .titulo6 h2{ color:#fff; font-size:65px; width:1130px; margin: 30px auto; text-align: center; } 
+              .texto-sobre-faculdades p{ color:#fff; font-size:10px; } 
+              .texto-sobre-faculdades h3{ color:#fff; font-size: 19px; } 
+              .box1{ display: flex; justify-content: center; align-items: center; min-height: 400px; } 
+              .card-7{ height: 380px; width: 335px; padding:20px 35px; background:#135F6F; border-radius:20px; margin: 15px; position:relative; overflow: hidden; text-align: center; } 
+              .como-e{ background:#252525; width: 100%; padding: 100px 0px; } 
+              .container{ position:relative; width: 1100px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; padding: 30px; }
+               .container .card-5{ position: relative; max-width: 300px; height: 210px; background: #135F6F; margin:30px 10px; padding: 20px 15px; display: flex; flex-direction: column; box-shadow: 0 5px 202px #135F6F; transition: 0.3s ease-in-out; }
+                .container .card-5:hover{ height: 462px; }
+                 .container .card-5 .imagens-sobre{ position: relative; width: 210px; height: 210px; top: -60px; left: 24px; z-index: 1; box-shadow: 0 5px 20px #135F6F; }
+                  .container .card-5 .imagens-sobre img{ max-width: 100%; border-radius: 4px; }
+                   .container .card-5 .texto-sobre-faculdades{ position: relative; margin-top:-140px; padding: 10px 15px; text-align: center; color: #135F6F; visibility: hidden; opacity: 0; transition: 0.3s ease-in-out; }
+                    .container .card-5:hover .texto-sobre-faculdades{ visibility: visible; opacity: 1; margin-top: -40px; transition-delay: 0.1s; }
+                     .sobre-faculdades h2{ color:#fff; font-size:65px; width:1130px; margin: 30px auto; text-align: center; }
+                      .titulo6 h2{ color:#fff; font-size:65px; width:1130px; margin: 30px auto; text-align: center; } 
+                      .texto-sobre-faculdades p{ color:#fff; font-size:15px; } 
+                      .texto-sobre-faculdades h3{ color:#fff; font-size: 19px; } 
+                      .box1{ display: flex; justify-content: center; align-items: center; width: auto; height:auto; } 
+                      .card-7{ height: 380px; width: 335px; padding:20px 35px; background:#135F6F; border-radius:20px; margin: 15px; position:relative; overflow: hidden; text-align: center; }
+                      .graduação1{ background:#135F6F; width: 100%; padding: 100px 0px; }
 
+                      .section1{
+                        margin: 0;
+                        padding: 0;
+                        height: auto;
+                        display: flex;
+                        justify-content: center;
+                        background-color: #ffffff;
+                      }
+                      
+                      .section1-conteudo{
+                        margin: 0;
+                        padding: 0;
+                        height: auto;
+                        margin-bottom: 60px;
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 7850px;
+                      }
+                      
+                      .slider{
+                        width: 800px;
+                        height: 500px;
+                        border-radius: 10px;
+                        overflow: hidden;
+                      }
+                      
+                      .slide{
+                        width: 500%;
+                        height: 500px;
+                        display: flex;
+                      }
+                      
+                      .slide input{
+                        display: none;
+                      }
+                      
+                      .st{
+                        width: 20%;
+                        transition: 2s;
+                      }
+                      
+                      .st img{
+                        width: 800px;
+                        height: 500px;
+                      }
+                      
+                      #radio1:checked ~.first{
+                        margin-left: 0;
+                      }
+                      
+                      #radio2:checked ~.first{
+                        margin-left: -20%;
+                      }
+                      
+                      
+                      #radio3:checked ~.first{
+                        margin-left: -40%;
+                      }
+                      
+                      #radio1:checked ~ .nav-auto .a-b1{
+                        background-color: #0a4f66;
+                      }
+                      
+                      #radio2:checked ~ .nav-auto .a-b2{
+                        background-color: #0a4f66;
+                      }
+                      
+                      #radio3:checked ~ .nav-auto .a-b3{
+                        background-color: #0a4f66;
+                      }
+                      
+                      
+                      .nav-m{
+                        position: absolute;
+                        width: 800px;
+                        margin-top: -20px;
+                        justify-content: center;
+                        display: flex;
+                      }
+                      
+                      .m-btn{
+                        border: 2px solid #0a4f66;
+                        padding: 5px;
+                        border-radius: 10px;
+                        cursor: pointer;
+                        transition: 1s;
+                      }
+                      
+                      .m-btn:not(:last-child){
+                        margin-right: 30px;
+                      }
+                      
+                      .m-btn:hover{
+                        background-color: #0a4f66;
+                      }
+                      .section5{
+                        background-color: #257f93;
+                        height: auto;
+                        top:-1150px;
+                        left: 0;
+                        margin-top: 35px;
+                        position: relative;
+                      }
+                      
+                      .faculdade-medicina {
+                        color: #ffffff;
+                        font-size: 60px;
+                        text-align: center;
+                        margin-top: -30px;
+                        font-weight: 400;
+                        letter-spacing: 3px;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        padding-top: 16px;
+                      }
+                      
+                      .titulo-faculdade {
+                        position: relative;
+                        top: 32px;
+                        
+                      }
+                      
+                      .container{
+                        width: 1150px;
+                        padding: 55px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        cursor: pointer;
+                      }
+                      
+                      .container .card{
+                        position: relative;
+                        padding: 10px;
+                        width: 290px;
+                        height: 400px;
+                        background-color: #ffffff;
+                        margin: 15px;
+                        border: 1px solid #063D49;
+                        border-radius: 20px;
+                        overflow: hidden;
+                        transform: 0.5s;
+                        text-align: center;
+                        top: 10px;
+                      }
+                      
+                      .container .card .imagem{
+                        transition: 0.5s;
+                        align-items: center;
+                      
+                      }
+                      
+                      .container .card .content{
+                        padding: 20px;
+                        text-align: center;
+                      }
+                      
+                      .container .card .content p{
+                        color: #000000;
+                        transition: 0.5s;
+                        font-size: large;
+                      }
+                      
+                      .container .card:hover{
+                        background-color: #063D49;
+                        color: #ffffff;
+                        margin-top: -30px;
+                        box-shadow: 2px 20px 25px #063D49;
+                        border-color: #063D49;
+                        transition: 0.3s;
+                      }
+                      
+                      .container .card:hover .content p{
+                        color: #ffffff;
+                      }
+                      
+                      .botao{
+                        background-color: #136475;
+                        border-radius: 15px;
+                        width: 150px;
+                        border-color: #ffffff;
+                        margin-left: 60px;
+                      }
+                      
+                        .grade{
+                          color: #ffffff;
+                        }
+                        .linha1{
+                          position: absolute;
+                          width: 135px;
+                          height: 20px;
+                          left: 50px;
+                          top: 2600px;
+                          background: #000000;
+                          border-radius: 8px;
+                          }
+                        
+                          #medicina{
+                          position: absolute;
+                          width: 15px;
+                          height: 32px;
+                          left: 200px;
+                          top: 2540px;
+                          font-family: 'Hermeneus One';
+                          font-style: normal;
+                          font-weight: 400;
+                          font-size: 75px;
+                          line-height: 145px;
+                          color: #000000;
+                        
+                          }
+                      
+                          .linha2{
+                              position: absolute;
+                              width: 435px;
+                              height: 20px;
+                              left:500px;
+                              top:2607px;
+                            background-color: #000000;
+                              border-radius: 8px;
+                              }
+                      
+                             
+                      
+                              .titulo h2{
+                      
+                                 color:#fff;
+                                 font: size 65px;
+                                 width:1130px;;
+                                 margin: 30px auto;
+                                 text-align: center;
+                                  
+                              }
+                      
+                              .box{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                min-height: 400px;
+                                background-color: #0a4f66;;
+                               
+                              }
+                      
+                      
+                             .card-9{
+                      
+                                height: 400px;
+                                width: 335px;
+                                padding:20px 35px;
+                                background-color:#0a4f66;
+                                border-radius:30px;
+                                margin:100px;
+                                left: 198px;
+                                top: 2000px;
+                                position:relative;
+                                overflow: hidden;
+                                text-align: center;
+                               }
+                      
+                      
+                                .texto2 h5{
+                                  
+                               color:#fff ;
+                               font-size: 23px;
+                               margin-bottom:15px;
+                               height:25px
+                                  
+                               }
+                      
+                                
+                                .texto2 p{
+                                  
+                                color:#FFF;
+                                font-size:18px ;
+                                height:230px;
+                               
+                                 }
+                      
+                      
+                                .card-9 .button{
+                                  
+                                background-color:#00243E;
+                                color:#fff;
+                                text-decoration:none;
+                                border: 2px solid transparent;
+                                  
+                                 top:600px ;
+                                 font-weight: bold;
+                                 padding: 9px 22px;
+                                 border-radius:30px ;
+                                 transition: .4s;
+                                 
+                                  
+                                  
+                                 }
+                      
+                      
+                                   .card-9.button-houver{
+                                  
+                                   background-color:transparent;
+                                   border: 2px solid #00243E ;
+                                  cursor:pointer;
+                                  
+                                  
+                                }
+                      
+                                #dois{
+                                  height: 400px;
+                                width: 335px;
+                                padding:20px 35px;
+                                background-color:#0a4f66;
+                                border-radius:30px;
+                                margin:100px;
+                                left: 10px;
+                                top: 2000px;
+                                position:relative;
+                                overflow: hidden;
+                                text-align: center;
+                                }
+                                
+                      
+                      
+                                #tres{
+                                  height: 400px;
+                                width: 335px;
+                                padding:20px 35px;
+                                background-color:#000;
+                                border-radius:30px;
+                                margin:100px;
+                                left: -180px;
+                                top: 2000px;
+                                position:relative;
+                                overflow: hidden;
+                                text-align: center;
+                                }
+                      
+                      
+                                .linha3{
+                                  position: absolute;
+                                  width: 135px;
+                                  height: 20px;
+                                  left: 0px;
+                                  top: 3275px;
+                                  background: #000000;
+                                  border-radius: 8px;
+                                  }
+                                
+                                  #psicologia{
+                                    position: absolute;
+                                                width: 15px;
+                                                height: 32px;
+                                                left: 150px;
+                                                top: 3205px;
+                                                font-family: 'Hermeneus One';
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                font-size: 75px;
+                                                line-height: 145px;
+                                                color: #000000;
+                                
+                                  }
+                              
+                                  .linha4{
+                                      position: absolute;
+                                      width: 435px;
+                                      height: 20px;
+                                      left:480px;
+                                      top:3275px;
+                                    background-color: #000000;
+                                      border-radius: 8px;
+                                      }
+                      
+                                      #quatro{
+                                        height: 400px;
+                                      width: 35px;
+                                      padding:20px 35px;
+                                      background-color:#0a4f66;
+                                      border-radius:30px;
+                                      margin:100px;
+                                      left:-50px;
+                                      top:2500px;
+                                      position:relative;
+                                      overflow: hidden;
+                                      text-align: center;
+                                      }
+                      
+                                      #cinco{
+                                        height: 400px;
+                                      width: 635px;
+                                      padding:20px 35px;
+                                      background-color:#0a4f66;
+                                      border-radius:30px;
+                                      margin:100px;
+                                      left: -90px;
+                                      top: 2500px;
+                                      position:relative;
+                                      overflow: hidden;
+                                      text-align: center;
+                                      }
+                      
+                                      #seis{
+                                        height: 400px;
+                                      width: 635px;
+                                      padding:20px 35px;
+                                      background-color:#0a4f66;
+                                      border-radius:30px;
+                                      margin:100px;
+                                      left: -50px;
+                                      top: 2500px;
+                                      position:relative;
+                                      overflow: hidden;
+                                      text-align: center;
+                                      }
+                      
+                                      .linha5{
+                                        position: absolute;
+                                        width: 435px;
+                                        height: 20px;
+                                        left:800px;
+                                        top:5065px;
+                                      background-color: #000000;
+                                        border-radius: 8px;
+                                        }
+                      
+                                        #terapia{
+                                          position: absolute;
+                                          width: 15px;
+                                          height: 32px;
+                                          left: 180px;
+                                          top: 4985px;
+                                          font-family: 'Hermeneus One';
+                                          font-style: normal;
+                                          font-weight: 400;
+                                          font-size: 75px;
+                                          line-height: 145px;
+                                          color: #000000;
+                                        
+                                          }
+                                          
+                                          #ocupacional{
+                                            position: absolute;
+                                          width: 15px;
+                                          height: 32px;
+                                          left: 410px;
+                                          top: 4985px;
+                                          font-family: 'Hermeneus One';
+                                          font-style: normal;
+                                          font-weight: 400;
+                                          font-size: 75px;
+                                          line-height: 145px;
+                                          color: #000000;
+                                           }
+                      
+                      
+                                          .linha6{
+                                            position: absolute;
+                                            width:135px;
+                                            height: 20px;
+                                            left:33px;
+                                            top:5065px;
+                                          background-color: #000000;
+                                            border-radius: 8px;
+                                            }
+                                            
+                      
+                                            #sete{
+                                              height: 400px;
+                                            width: 335px;
+                                            padding:20px 35px;
+                                            background-color:#0a4f66;
+                                            border-radius:30px;
+                                            margin:100px;
+                                            left: -62px;
+                                            top: 3300px;
+                                            position:relative;
+                                            overflow: hidden;
+                                            text-align: center;
+                                            }
+                      
+                      
+                                            #oito{
+                                              height: 400px;
+                                            width: 335px;
+                                            padding:20px 35px;
+                                            background-color:#0a4f66;
+                                            border-radius:30px;
+                                            margin:100px;
+                                            left: -50px;
+                                            top: 3300px;
+                                            position:relative;
+                                            overflow: hidden;
+                                            text-align: center;
+                                            }
+                      
+                      
+                                            #nove{
+                                              height: 400px;
+                                            width: 335px;
+                                            padding:20px 35px;
+                                            background-color:#0a4f66;
+                                            border-radius:30px;
+                                            margin:100px;
+                                            left: 30px;
+                                            top:3300px;
+                                            position:relative;
+                                            overflow: hidden;
+                                            text-align: center;
+                                            }
+                      
+                      
+                                            .linha7{
+                                              position: absolute;
+                                              width: 435px;
+                                              height: 20px;
+                                              left:650px;
+                                              top:6650px;
+                                            background-color: #000000;
+                                              border-radius: 8px;
+                                              }
+                      
+                      
+                                            #odontologia{
+                                              position: absolute;
+                                            width: 15px;
+                                            height: 32px;
+                                            left: 210px;
+                                            top: 6575px;
+                                            font-family: 'Hermeneus One';
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            font-size: 75px;
+                                            line-height: 145px;
+                                            color: #000000;
+                                             }
+                      
+                                             .linha8{
+                                              position: absolute;
+                                              width:135px;
+                                              height: 20px;
+                                              left:33px;
+                                              top:6650px;
+                                            background-color: #000000;
+                                              border-radius: 8px;
+                                              }
+                      
+                      
+                                              #dez{
+                                                height: 400px;
+                                              width: 335px;
+                                              padding:20px 35px;
+                                              background-color:#0a4f66;
+                                              border-radius:30px;
+                                              margin:100px;
+                                              left:-62px;
+                                              top:4195px;
+                                              position:relative;
+                                              overflow: hidden;
+                                              text-align: center;
+                                              }
+                      
+                                              #onze{
+                                                height: 400px;
+                                              width: 335px;
+                                              padding:20px 35px;
+                                              background-color:#0a4f66;
+                                              border-radius:30px;
+                                              margin:80px;
+                                              left:-23px;
+                                              top:4195px;
+                                              position:relative;
+                                              overflow: hidden;
+                                              text-align: center;
+                                              }
+                      
+                                              #doze{
+                                                height: 400px;
+                                              width: 335px;
+                                              padding:20px 35px;
+                                              background-color:#0a4f66;
+                                              border-radius:30px;
+                                              margin:100px;
+                                              left: 88px;
+                                              top:4195px;
+                                              position:relative;
+                                              overflow: hidden;
+                                              text-align: center;
+                                              }
+                      
+                                              .linha9{
+                                                position: absolute;
+                                                width: 435px;
+                                                height: 20px;
+                                                left:900px;
+                                                top:8010px;
+                                              background-color: #000000;
+                                                border-radius: 8px;
+                                                }
+                      
+                      
+                                              #estetica{
+                                                position: absolute;
+                                              width: 15px;
+                                              height: 32px;
+                                              left: 200px;
+                                              top: 7940px;
+                                              font-family: 'Hermeneus One';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 75px;
+                                              line-height: 145px;
+                                              color: #000000;
+                                               }
+                      
+                                               #e{
+                                                position: absolute;
+                                              width: 15px;
+                                              height: 32px;
+                                              left: 480px;
+                                              top: 7940px;
+                                              font-family: 'Hermeneus One';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 75px;
+                                              line-height: 145px;
+                                              color: #000000;
+                                               }
+                      
+                      
+                                               #cosmetica{
+                                                position: absolute;
+                                              width: 15px;
+                                              height: 32px;
+                                              left: 560px;
+                                              top: 7940px;
+                                              font-family: 'Hermeneus One';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 75px;
+                                              line-height: 145px;
+                                              color: #000000;
+                                               }
+                      
+                                               .linha10{
+                                                position: absolute;
+                                                width:135px;
+                                                height: 20px;
+                                                left:33px;
+                                                top:8010px;
+                                              background-color: #000000;
+                                                border-radius: 8px;
+                                                }
+                      
+                      
+                                                #treze{
+                                                  height: 400px;
+                                                width: 335px;
+                                                padding:20px 35px;
+                                                background-color:#0a4f66;
+                                                border-radius:30px;
+                                                margin:100px;
+                                                left:-62px;
+                                                top:5000px;
+                                                position:relative;
+                                                overflow: hidden;
+                                                text-align: center;
+                                                }
+                      
+                      
+                                                #quatorze{
+                                                  height: 400px;
+                                                width: 335px;
+                                                padding:20px 35px;
+                                                background-color:#0a4f66;
+                                                border-radius:30px;
+                                                margin:100px;
+                                                left: 15px;
+                                                top:5000px;
+                                                position:relative;
+                                                overflow: hidden;
+                                                text-align: center;
+                                                }
+                      
+                      
+                      
+                                                #quinze{
+                                                  height: 400px;
+                                                width: 335px;
+                                                padding:20px 35px;
+                                                background-color:#0a4f66;
+                                                border-radius:30px;
+                                                margin:100px;
+                                                left: 30px;
+                                                top:5000px;
+                                                position:relative;
+                                                overflow: hidden;
+                                                text-align: center;
+                                                }
+                      
+                                                .linha11{
+                                                  position: absolute;
+                                                  width: 435px;
+                                                  height: 20px;
+                                                  left:710px;
+                                                  top:9810px;
+                                                background-color: #000000;
+                                                  border-radius: 8px;
+                                                  }
+                      
+                      
+                                                #enfermagem{
+                                                  position: absolute;
+                                                width: 15px;
+                                                height: 32px;
+                                                left: 200px;
+                                                top: 9748px;
+                                                font-family: 'Hermeneus One';
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                font-size: 75px;
+                                                line-height: 145px;
+                                                color: #000000;
+                                                 }
+                      
+                      
+                                                 .linha12{
+                                                  position: absolute;
+                                                  width:135px;
+                                                  height: 20px;
+                                                  left:33px;
+                                                  top:9810px;
+                                                background-color: #000000;
+                                                  border-radius: 8px;
+                                                  }
+                      
+                      
+                                                  #dezesseis{
+                                                    height: 400px;
+                                                  width: 335px;
+                                                  padding:20px 35px;
+                                                  background-color:#0a4f66;
+                                                  border-radius:30px;
+                                                  margin:100px;
+                                                  left:-62px;
+                                                  top:6200px;
+                                                  position:relative;
+                                                  overflow: hidden;
+                                                  text-align: center;
+                                                  }
+                      
+                                                  #dezessete{
+                                                    height: 400px;
+                                                  width: 335px;
+                                                  padding:20px 35px;
+                                                  background-color:#0a4f66;
+                                                  border-radius:30px;
+                                                  margin:100px;
+                                                  left: -35px;
+                                                  top:6200px;
+                                                  position:relative;
+                                                  overflow: hidden;
+                                                  text-align: center;
+                                                  }
+                      
+                      
+                                                  #dezoito{
+                                                    height: 400px;
+                                                  width: 335px;
+                                                  padding:20px 35px;
+                                                  background-color:#0a4f66;
+                                                  border-radius:30px;
+                                                  margin:100px;
+                                                  left: -50px;
+                                                  top:6200px;
+                                                  position:relative;
+                                                  overflow: hidden;
+                                                  text-align: center;
+                                                  }
 
-        }
-
-
-        .linha5{
-            position: absolute;
-            width: 135px;
-            height: 20px;
-            left: 50px;
-            top: 4600px;
-            background: #D30511;
-            border-radius: 8px;
-            }
-        
-            #psicologia{
-            position: absolute;
-            width: 15px;
-            height: 32px;
-            left: 200px;
-            top: 4530px;
-            font-family: 'Hermeneus One';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 75px;
-            line-height: 145px;
-            color: #000000;
-        
-            }
-        
-            .linha6{
-            position: absolute;
-            width: 435px;
-            height: 20px;
-            left: 520px;
-            top: 4600px;
-            background: #D30511;
-            border-radius: 8px;
-            }
-
-
-            #preto2{
-                background-color: #000000;
-                position: absolute;
-                width: 150vw;
-                height: 3080px;
-                color: #ffffff;
-                left: 0px;
-                top: 4700px;
-            }
-
-            #psicologia2{
-                position: absolute;
-                width: 2265px;
-                height: 338px;
-                left: 36px;
-                top: 35px;
-
-                background: #FFFFFF;
-                border-radius: 60px;
-            }
-            
-            .oque2{
-                position: absolute;
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 40px;
-                line-height: 97px;
-                left: 35px ;
-                color: #000000;
-            }
-
-            .textopsicologia1{
-                position: absolute;
-                width: 550px;
-                height: 12px;
-                left: 5px;
-                top: 65px;
-
-                font-family: 'Hermeneus One';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 20px;
-                line-height: 30px;
-                color: #000000;
-            }
-
-            .linha7{
-                position: absolute;
-                width: 286px;
-                height:0px;
-                left: 415px;
-                top: 170px;
-
-            border: 1px solid #C0C0C0	;
-            transform: rotate(90deg);
-            }
-
-            #psicologia3{
-                position: absolute;
-                width: 583px;
-                height: 301px;
-                left: 13px;
-                top: 570px;
-
-                background: #FFFFFF;
-                border-radius: 60px;
-            }
-
-            .perfil2{
-                position: absolute;
-                width: 657px;
-                height: 119px;
-                left: 34px;
-                top: 10px;
-
-                font-family: 'Hermeneus One';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 30px;
-
-
-                color: #000000;
-
-            }
-
-            .textopsicologia2{
-                position: absolute;
-width: 275px;
-height: 150px;
-left: 34px;
-top: 50px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-
-color: #000000;
-            }
-
-
-                #psicologia4{
-                    left: 615px;
-                    background: #FFFFFF;
-                    height: 438px;
-                    width: 450px;
-                    top: 540px;
-                    position: absolute;
-                    border-radius: 60px;
-                }
-
-                .gradecurricular2{
-                    font-family: 'Hermeneus One';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 30px;
-                position: absolute;
-                width: 657px;
-                height: 119px;
-                left: 94px;
-                top: 10px;
-
-                color: #000000;   
-                }
-
-
-            .textopsicologia3{
-                position: absolute;
-width: 275px;
-height: 150px;
-left: 34px;
-top: 50px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-
-color: #000000;
-            }
-
-
-            .saibamais2{
-                
-                    border-radius: 60px;
-                    background-color: #00243E;
-                    width: 110px;
-                    height: 45px;
-                    position: absolute;
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-size: 20px;
-                    top: 350px;
-                    left: 20vw;
-                    color: #ffffff;
-                    cursor: pointer;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-            
-            }
-
-            .linha8{
-                position: absolute;
-                width: 135px;
-                height: 20px;
-                left: 20px;
-                top: 1090px;
-                background: #FFFFFF;
-                border-radius: 8px;
-                }
-            
-                #faculdadepsicologia1{
-                position: absolute;
-                width: 15px;
-                height: 32px;
-                left: 165px;
-                top: 1050px;
-                font-family: 'Hermeneus One';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 55px;
-                color: #D30511;
-            
-                }
-        
-                #faculdadepsicologia2{
-                    position: absolute;
-                    width: 15px;
-                    height: 32px;
-                    left: 405px;
-                    top: 1050px;
-                    font-family: 'Hermeneus One';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 55px;
-                    color: #D30511;
-                
-                    }
-        
-                #faculdadepsicologia3{
-                    position: absolute;
-                    width: 15px;
-                    height: 32px;
-                    left: 465px;
-                    top: 1050px;
-                    font-family: 'Hermeneus One';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 55px;
-                    color: #D30511;
-                    
-                    }
-            
-                .linha9{
-                position: absolute;
-                width: 295px;
-                height: 20px;
-                left: 695px;
-                top: 1090px;
-                background: #FFFFFF;
-                border-radius: 8px;
-                }
-
-                #psicologia5{
-                position: absolute;
-                width: 2265px;
-                height: 338px;
-                left: 36px;
-                top: 1190px;
-
-                background: #FFFFFF;
-                border-radius: 60px;
-                }
-
-                .textopsicologia4{
-                    position: absolute;
-width: 677px;
-height: 810px;
-left: 25px;
-top: 36px;
-
-font-family: 'Hermeneus One';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-
-
-color: #000000;
-                }
-
-                .saibamais3{
-                
-                    border-radius: 60px;
-                    background-color: #00243E;
-                    width: 110px;
-                    height: 75px;
-                    position: absolute;
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-size: 20px;
-                    top: 150px;
-                    left: 75vw;
-                    color: #ffffff;
-                    cursor: pointer;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-            
-            }
-
-            #faculdades2{
-                position: absolute;
-            width: 2863px;
-            height: 639px;
-            left: 20px;
-            top: 1605px;
-            background: #ffffff;
-            border-radius: 60px;
-            }
-
-            .textofaculdades2{
-                position: absolute;
-                font-size: 25px;
-                color: #D30511;
-                font-family: 'Inter';
-                font-style: normal;
-                left: 350px;
-    
-            }
-
-            #psicologia6{
-            position: absolute;
-            width: 2993px;
-            height: 639px;
-            left: 20px;
-            top: 2305px;
-            background: #041928;
-            border: 6px solid #FFFFFF;
-            border-radius: 60px;
-            }
-
-            .mercadodetrabalho2{
-                position: absolute;
-                width: 1016px;
-                height: 104px;
-                left: 66px;
-                top: 10px;                
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 50px;
-                line-height: 97px;
-
-                color: #FFFFFF;
-            }
-
-            .textopsicologia5{
-                position: absolute;
-                width: 615px;
-                height: 588px;
-                left: 15px;
-                top: 129px;
-                
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 30px;
-                
-                
-                color: #FFFFFF
-            }
-
-
-            #rosa{
-            
-            background-color: #A42930;
-            position: absolute;
-            width: 150vw;
-            height: 380px;
-            color: #ffffff;
-            left: 0px;
-            top: 7780px;
-                
-                
-            }
-
-            .mediasalarial2{
-                position: absolute;
-                width: 807px;
-                height: 176px;
-                left: 589px;
-                top: 20px;
-                
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 50px;
-                line-height: 97px;
-                
-                color: #FFFFFF;
-                
-            }
-
-            .textopsicologia6{
-                position: absolute;
-                width: 407px;
-                height: 176px;
-                left: 589px;
-                top: 100px;
-                
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 30px;
-
-                
-                color: #FFFFFF;
-            }
-
-            
+                                                  .titulo-faculdade-psi {
+                                                    position: relative;
+                                                    top: 32px;
+                                                    
+                                                  }
+                                                  
+                                                    .section6{
+                                                      background-color: #063D49;
+                                                      height: auto;
+                                                      top:-500px;
+                                                      left: 0;
+                                                      margin-top: 35px;
+                                                      position: relative;
+                                                    }
+                                                  
+                                                    .faculdade-psicologia {
+                                                      color: #ffffff;
+                                                      font-size: 60px;
+                                                      text-align: center;
+                                                      margin-top: -30px;
+                                                      font-weight: 400;
+                                                      letter-spacing: 3px;
+                                                      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                                      padding-top: 16px;
+                                                    }
+                                                  
+                                                    .botao-psi{
+                                                      background-color: #063D49;
+                                                      border-radius: 15px;
+                                                      width: 150px;
+                                                      border-color: #ffffff;
+                                                      margin-left: 10px;
+                                                    }
+                                                  
+                                                    .container{
+                                                      width: 1150px;
+                                                      padding: 55px;
+                                                      display: flex;
+                                                      align-items: center;
+                                                      justify-content: center;
+                                                      flex-wrap: wrap;
+                                                      cursor: pointer;
+                                                    }
+                                                    
+                                                    .container .card-psi{
+                                                      position: relative;
+                                                      padding: 10px;
+                                                      width: 290px;
+                                                      height: 400px;
+                                                      background-color: #ffffff;
+                                                      margin: 15px;
+                                                      border: 1px solid #063D49;
+                                                      border-radius: 20px;
+                                                      overflow: hidden;
+                                                      transform: 0.5s;
+                                                      text-align: center;
+                                                      top: 10px;
+                                                    }
+                                                    
+                                                    .container .card-psi .imagem-psi{
+                                                      transition: 0.5s;
+                                                      align-items: center;
+                                                    
+                                                    }
+                                                    
+                                                    .container .card-psi .content{
+                                                      padding: 20px;
+                                                      text-align: center;
+                                                    }
+                                                    
+                                                    .container .card-psi .content p{
+                                                      color: #000000;
+                                                      transition: 0.5s;
+                                                      font-size: large;
+                                                    }
+                                                    
+                                                    .container .card-psi:hover{
+                                                      background-color: #136475;
+                                                      color: #ffffff;
+                                                      margin-top: -30px;
+                                                      box-shadow: 2px 20px 25px #0d5260;
+                                                      border-color: #0f5361;
+                                                      transition: 0.3s;
+                                                    }
+                                                    
+                                                    .container .card-psi:hover .content p{
+                                                      color: #ffffff;
+                                                    }
+                                                  
+                                                    
+                                                    .grade-psi{
+                                                      color: #ffffff;
+                                                    }
